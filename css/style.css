@@ -1,0 +1,231 @@
+html{
+	background: radial-gradient(rgba(50, 20, 100, .8), white, rgba(50, 20, 100, .8));
+	/*background-color: black;*/	
+	/*background-image: url('https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')*/
+}
+body {
+	background-color: black;
+	color: #e0e0de;
+	font-family: 'Poiret One', cursive;
+	/*font-family: Didot;*/
+	width: 95%;
+	margin: 0 auto;
+}
+
+.background-img {
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+
+.intro {
+	position: absolute;
+	right: 175px;
+	top: 275px;
+	z-index: 1
+	font-weight: 100;
+	font-size: 70px;
+	background-color: rgba(4, 4, 4, .3);
+}
+
+nav {
+	position: sticky; top: 0;
+	z-index: 2;
+	display: flex;
+	font-size: 40px;
+	transition: .5s ease;
+	background-color: transparent;
+}
+
+nav.scrolled {
+	background-color: rgba(50, 20, 100, .6)
+	/*background: rgba(3, 6, 200, .8);*/
+}
+
+nav a {
+	margin: 5px 10px 0 10px;
+	color: white;
+	transition: .2s;
+}
+
+nav a:hover {
+	color: gray;
+}
+
+.nav2 {
+	margin-left: auto;
+}
+
+.main {
+	height: 1800px;
+}
+
+.block {
+	background: radial-gradient(to right, rgba(50, 20, 100, .8), white, rgba(50, 20, 100, .8));
+	height: 5px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.header {
+	font-size: 50px;
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+.sub-header {
+	font-size: 40px;
+	color: gray;
+	text-align: center;
+}
+
+.container {
+	margin-left: 260px;
+	margin-bottom: 200px;
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	color: gray;
+}
+.skill {
+	width: 90px;
+	height: 100px;
+}
+.logo {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 26px;
+	transition: .2s;
+}
+
+.logo:hover {
+	color: white;
+}
+
+.container2 {
+	display: flex;
+	justify-content: space-around;
+}
+.project {
+	height: 30vh;
+	width: 25vw;
+	border-radius: 15px;
+	transition: .3s;
+}
+
+.project:hover {
+	transform: scale(1.15);
+}
+
+
+.about-main {
+	margin-top: 40px;
+	/*height: 1500px;*/
+}
+.headshot {
+	width: 350px;
+	height: 520px;
+	border: 3px solid white;
+	border-radius: 50%;
+	/*box-shadow: 5px 5px 5px 5px gray;*/
+}
+.center {
+	text-align: center;
+}
+
+.headshot2 {
+	margin-top: 80px;
+	width: 350px;
+	height: 520px;
+	border: 3px solid white;
+	border-radius: 50%;
+	/*box-shadow: 5px 5px 5px 5px gray;*/
+}
+
+.bio {
+	/*background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-chim-036.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d6568c05cc9cea4ae46605f588832e35');*/
+	/*background-image: url('https://www.ecopetit.cat/wpic/mpic/1-18405_minimalism-black-background-black-white-abstract-black-n.jpg');*/
+	/*background-image: url('https://images.hdqwalls.com/download/birds-flying-8-bit-minimal-4k-ix-2880x1800.jpg');*/
+	background-size: cover;
+	/*border: 1px solid #2c636a;*/
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	padding: 40px;
+}
+
+.bio-text {
+	align-self: center;
+	color: white;
+	margin-right: 20px;
+	/*background-color: rgba(255, 255, 255, .4);*/
+	padding: 5px;
+	text-align: center;
+	/*box-shadow: 5px 5px 5px 5px gray;*/
+}
+
+footer {
+	background-color: white;
+	border: 5px solid black;
+	padding: 5px;
+}
+.underline {
+	border-bottom: 2px dotted black;
+}
+
+.icon {
+	width: 80px;
+	height: 80px;
+	transition: .3s;
+}
+
+.icon:hover {
+	transform: scale(1.15);
+}
+
+
+.proj-show {
+	text-align: center;
+}
+.proj {
+	width: 700px;
+	height: 600px;
+}
+
+.desc {
+	margin: 0 auto;
+	text-align: left;	
+	font-size: 30px;
+	width: 50%;
+}
+.check-it-out {
+	text-align: center;
+}
+.contact {
+	text-align: center;
+}
+
+p {
+	font-size: 26px;
+}
+
+.about {
+	font-size: 36px;
+}
+
+.proj-main {
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
