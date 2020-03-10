@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<nav>
+		<div class="nav1">
+			<a href="index.html">Home</a>
+			<a href="aboutMe.html">About Me</a>
+		</div>
+		<div class="nav2">
+			<a href="index.html#skills">Skills</a>
+			<a href="index.html#projects">Projects</a>
+			<a href="index.html#contact">Contact</a>
+		</div>
+	</nav>
+</head> 
+<body>
+	<div class="proj-main">
+		<div class="proj-show">
+			<a href="https://localized-capstone-app.herokuapp.com/"><img class="proj" src="portfolio-images/localized.png"></a>
+		<h1 class="header">Description</h1>
+		<div class="desc">
+			<p>Localized is an full-stack app that gives users the oppurtunity to discover all the local businesses in their area. Simply enter your address when registering and the map will populate with the surrounding businesses. Click on the markers to view business profiles and subscribe to stay updated on the latest posts.   
+			<br>
+			<br>
+			This app was built during a 2-week period, where as the 1st week was spent working on the back end. The intention while creating the API was to moduralize code and build a strong foundation of model realations as to make the front end work easier. In the front end, I used react to design the layout and control the flow of data. I made use of two 3rd party API's as well. The first of which being Cloudinary, which allowed me to host uploaded pictures and access them with a fetch call to retrieve the urls as needed. The second was Mapbox, which gave me the ability to render the map within my app and populate this map with the businesses. The markers were created by assigning the latitude and longitude which could be retrieved by reverse geolocation courtesy of Mapbox's API. 
+			The app was built with Javascript, React Js, Python, Flask, Sqlite, and PostGres. 
+			</p>
+			<div class="check-it-out">
+				<div>
+					Check out the app <a href="https://localized-capstone-app.herokuapp.com/">here</a>
+				</div>
+				<div>
+					Check out the front end code <a href="https://github.com/rgohma2/localized-frontend-capstone">here</a>
+				</div>
+				<div>
+					Check out the back end code <a href="https://github.com/rgohma2/localized-backend-capstone">here</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+<footer>
+	<div class="container2 foot">
+		<a href="https://www.linkedin.com/in/randall-gohmann-ba677a15a/"><img class="icon" src="https://image.flaticon.com/icons/png/512/61/61109.png"></a>
+		<a href="https://github.com/rgohma2"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"></a>
+		<a href="portfolio-images/resume.pdf"><img class="icon" src="https://www.freeiconspng.com/uploads/resume-icon-png-3.png"></a>
+	</div>
+</footer>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

@@ -32,7 +32,7 @@ nav {
 	position: sticky; top: 0;
 	z-index: 2;
 	display: flex;
-	font-size: 40px;
+	font-size: 30px;
 	transition: .5s ease;
 	background-color: transparent;
 }
@@ -192,7 +192,7 @@ footer {
 	text-align: center;
 }
 .proj {
-	width: 700px;
+	width: 800px;
 	height: 600px;
 }
 
